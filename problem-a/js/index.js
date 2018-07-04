@@ -99,7 +99,8 @@ const URL_TEMPLATE = "https://itunes.apple.com/search?entity=song&limit=25&term=
 //long time (so the page doesn't seem unresponsive). To do this, define a 
 //function `togglerSpinner()` that modifies the existing `.fa-spinner` element 
 //so that it is displayed if currently hidden, or hidden if currently displayed.
-//Hint: use the `.toggle()` method!
+//Use the `classList.toggle()` method (or `.toggleClass()` with jQuery) to 
+//toggle the presence of the `d-none` class.
 //
 //Modify the `fetchTrackList()` function once again so that you toggle the
 //spinner (show it) BEFORE you send the AJAX request, and toggle it back off
